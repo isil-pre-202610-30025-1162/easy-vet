@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B513DB2A2FB7533400BF67D1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B513DB292FB7533400BF67D1 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		B513DB292FB7533400BF67D1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B5912D742F88A57D00C1C765 /* EasyVet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyVet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +37,7 @@
 		B5912D6B2F88A57D00C1C765 = {
 			isa = PBXGroup;
 			children = (
+				B513DB292FB7533400BF67D1 /* README.md */,
 				B5912D762F88A57D00C1C765 /* EasyVet */,
 				B5912D752F88A57D00C1C765 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B513DB2A2FB7533400BF67D1 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
